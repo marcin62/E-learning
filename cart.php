@@ -9,14 +9,8 @@
       <body>
         <?php
             include("inc/header.php");
-        ?>
-        <div id='wrap'>
-        <?php
-            include("inc/slider.php");
-            include("inc/home_cat.php");
-            include("inc/top_course.php");
+            echo cart();
             include("inc/footer.php");
         ?>
-        </div>
       </body>
 </html>
