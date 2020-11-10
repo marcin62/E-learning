@@ -103,7 +103,21 @@ body{background:#e6e6e6;}
 #crumb span a:hover{text-decoration: underline;}
 #crumb b{font-weight: normal;color: #74889e;}
 
+#cart_f{width: 40%;}
 #cart{width: 96%;padding: 2%;box-sizing: border-box;background: #fff;margin: 2% 2% 1% 2%;}
+#cart table{width: 100%;}
+#cart table tr th{padding-left: 2%;box-sizing: border-box;text-align: left;height: 35px;background: #3d5267;color: #fff;}
+#cart table tr td{border-bottom: 1px solid rgba(0,0,0,0.1);padding: 1% 0% 1% 2%;box-sizing: border-box;color: #3f5267;text-align: left;font-size: 14px;}
+#cart table tr td img{width: 80px;height: 60px;float: left; margin-right: 2%;}
+#cart table tr td span{float: left;width: 80%;}
+#cart table tr td span a{text-decoration: none;color: #3f5267;font-size: 13px;}
+#cart table tr td span a:hover{text-decoration: underline;}
+#cart table tr td b{font-weight: normal;float: left;font-size: 12px;margin-top: 1%;}
+#cart table tr td b a{text-decoration: none;color: #f00;}
+#cart table tr td b a:hover{text-decoration: underline;}
+#cart table tr td button{transition: all 0.3s ease-in-out;width: 48%;height: 35px;background: #3f5267;border-width: 0px;outline: none;color: #fff;border-radius: 30px;cursor: pointer;}
+#cart table tr td button a{display: block;text-decoration: none;color: #fff;}
+#cart table tr td button:hover{border-radius: 0px;}
 
 #footer{width:100%;background: #3f5267;}
 #footer ul{list-style: none;padding: 3% 5% 5% 5%;box-sizing: border-box;}

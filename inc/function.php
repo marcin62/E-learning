@@ -56,6 +56,46 @@
                     <span>My Cart</span>
                 </div>
                 <div id='cart'>
+                    <table cellspacing='0'>
+                        <tr>
+                            <th id='cart_f'>Name</th>
+                            <th>Instructor</th>
+                            <th>Language</th>
+                            <th>Lecture</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr>
+                            <td id='cart_f'>
+                                <img src='img/course/1.jpg'/>
+                                <span><a href='#'>Social Networking Website Development In PHP With PDO Social Networking Website Development In PHP With PDO</a></span>
+                                <b><a href='#'><i class='fas fa-trash-alt'></i>Remove</a></b>
+                            </td>
+                            <td>Marcin</td>
+                            <td>English</td>
+                            <td>100</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td id='cart_f'>
+                                <img src='img/course/1.jpg'/>
+                                <span><a href='#'>Social Networking Website Development In PHP With PDO</a></span>
+                                <b><a href='#'><i class='fas fa-trash-alt'></i>Remove</a></b>
+                            </td>
+                            <td>Marcin</td>
+                            <td>English</td>
+                            <td>100</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button><a href='index.php'>Keep Shopping</a></button>
+                                <button><a href='#'>Checkout</a></button>
+                            </td>
+                            <td></td><td></td>
+                            <td style='text-align:right'>Amout Payable :</td>
+                            <td>$120</td>
+                        </tr>
+                    </table>
                 </div><br clear='all'/>
             </div>";
     }
