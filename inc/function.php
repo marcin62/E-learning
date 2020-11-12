@@ -100,4 +100,54 @@
             </div>";
     }
 
+    function course_details()
+    {
+        include("inc/db.php");
+        echo"<div id='crumb'>
+                <span><a href='index.php'>Home</a></span> <b>></b>
+                <span>My Cart</span>
+            </div>
+            <div id='course_left'>
+                <img src='img/course/1.jpg'/>
+                <div id='course_share'>
+                    <button id='fb'><a href='#'><i class='fab fa-facebook-f'></i>Share</a></button>
+                    <button id='gp'><a href='#'><i class='fab fa-google-plus'></i>Share</a></button>
+                    <button id='tw'><a href='#'><i class='fab fa-twitter'></i>Share</a></button>
+                    <button id='w'><a href='#'><i class='fab fa-whatsapp'></i>Share</a></button>
+                </div>
+            </div>
+            <div id='course_right'>
+                <h2>Kurs matematyczny dla początkujących</h2>
+                <table>
+                    <tr>
+                        <td>Instructor</td>
+                        <td>Marcin</td>
+                    </tr>
+                    <tr>
+                        <td>Enroll By</td>
+                        <td>9 Students</td>
+                    </tr>
+                    <tr>
+                        <td>Level</td>
+                        <td>Begginers</td>
+                    </tr>
+                    <tr>
+                        <td>Language</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td>Lectures</td>
+                        <td>52</td>
+                    </tr>
+                </table>
+                <div id='price'>
+                    <h3>Price : $21 <span>70%</span><b>70%</b> Saving $49</h3>
+                </div>
+                <form>
+                    <button><i class='fas fa-shopping-cart'></i>Add To Cart</button>
+                    <button><a href='#'><i class='fas fa-bolt'></i>Enroll Now</a></button>
+                </form>
+            </div><br clear='all'/>";
+    }
+
 ?>

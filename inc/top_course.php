@@ -2,7 +2,7 @@
     <h2>Top Courses</h2>
     <ul>
         <li>
-            <a href="#">
+            <a href="course_details.php">
                 <img src="img/course/1.jpg"/>
                 <h3>Social Networking Website Development In PHP With PDO</h3>
                 <h4>Price : $134</h4>
