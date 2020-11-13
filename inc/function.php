@@ -110,10 +110,12 @@
             <div id='course_left'>
                 <img src='img/course/1.jpg'/>
                 <div id='course_share'>
+                <center>
                     <button id='fb'><a href='#'><i class='fab fa-facebook-f'></i>Share</a></button>
                     <button id='gp'><a href='#'><i class='fab fa-google-plus'></i>Share</a></button>
                     <button id='tw'><a href='#'><i class='fab fa-twitter'></i>Share</a></button>
                     <button id='w'><a href='#'><i class='fab fa-whatsapp'></i>Share</a></button>
+                </center>
                 </div>
             </div>
             <div id='course_right'>
@@ -144,9 +146,31 @@
                     <h3>Price : $21 <span>70%</span><b>70%</b> Saving $49</h3>
                 </div>
                 <form>
+                <center>
                     <button><i class='fas fa-shopping-cart'></i>Add To Cart</button>
                     <button><a href='#'><i class='fas fa-bolt'></i>Enroll Now</a></button>
+                </center>
                 </form>
+            </div><br clear='all'/>
+            <div id='c_desc'>
+                <h2>Course Details</h2>
+                <p>Opis – w epice obok opowiadania jeden z dwóch podstawowych elementów narracji, w liryce komponent monologu lirycznego. W odróżnieniu od opowiadania opis przedstawia te składniki świata przedstawionego, które nie odnoszą się do zdarzeń, przede wszystkim charakter i wygląd postaci oraz tło wydarzeń, takie jak czas i miejsce akcji (np. opis przyrody). Opis można ująć ogólnie jako przedstawienie pozaczasowych składników narracji, ujęcie przedmiotów w ich statyczności i pozaczasowości – w istocie jednak często trudno odróżnić opis i opowiadanie, które mogą przenikać się wzajemnie i tworzyć wiele form przejściowych.</p>
+                <h2>What i will learn ?<h2>
+                <p>Zdasz swoją mature</p>
+                <h2>Before Starting<h2>
+                <p>Upewnij się że jesteś uczniem</p>
+                <h2>Instructor</h2>
+                <img src='img/course/2.jpg'/>
+                <p>Jestem profesjonalnym nauczycielem matematyki. Zajemuje sie nauczaniem od 5 lat. mam na koncie wiele sukcesów. Znanymi moimi uczniami są miedzy innymi aa a a a a a a a a a  </p>
+                <div id='course_share'>  
+                    <button id='fb'><a href='#'><i class='fab fa-facebook-f'></i></a></button>
+                    <button id='gp'><a href='#'><i class='fab fa-google-plus'></i></a></button>
+                    <button id='tw'><a href='#'><i class='fab fa-twitter'></i></a></button>
+                    <button id='w'><a href='#'><i class='fab fa-whatsapp'></i></a></button>                </div>
+                </div>
+            
+            <div id='c_rel'>
+
             </div><br clear='all'/>";
     }
 
