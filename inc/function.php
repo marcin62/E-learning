@@ -166,11 +166,40 @@
                     <button id='fb'><a href='#'><i class='fab fa-facebook-f'></i></a></button>
                     <button id='gp'><a href='#'><i class='fab fa-google-plus'></i></a></button>
                     <button id='tw'><a href='#'><i class='fab fa-twitter'></i></a></button>
-                    <button id='w'><a href='#'><i class='fab fa-whatsapp'></i></a></button>                </div>
-                </div>
-            
-            <div id='c_rel'>
+                    <button id='w'><a href='#'><i class='fab fa-whatsapp'></i></a></button>                
+                </div><br clear='all'/>
+                <h2>Curriculum</h2> 
+                <ul>
+                    <li><i class='fas fa-video'></i><span>1. Introduction</span></li>
+                    <li><i class='fas fa-video'></i><span>2. Overview</span></li>
+                    <li><i class='fas fa-video'></i><span>3. Topic 1</span></li>
+                    <li><i class='fas fa-video'></i><span>4. Topic 2</span></li>
+                    <li><i class='fas fa-video'></i><span>5. Topic 3</span></li>
+                </ul>   
+            </div>
 
+            <div id='c_rel'>
+                <h2>Related Courses</h2>    
+                <ul>
+                    <li>
+                    <a href='#'>
+                        <img src='img/course/3.jpg'/>
+                        <p>New course that show you how to use X</p><br clear='all'/>
+                    </a>
+                    </li>
+                    <li>
+                    <a href='#'>
+                        <img src='img/course/2.jpg'/>
+                        <p>New course that show you how to use X</p><br clear='all'/>
+                    </a>
+                    </li>
+                    <li>
+                    <a href='#'>
+                        <img src='img/course/1.jpg'/>
+                        <p>New course that show you how to use X</p><br clear='all'/>
+                    </a>
+                    </li>
+                </ul> 
             </div><br clear='all'/>";
     }
 
