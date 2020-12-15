@@ -67,7 +67,7 @@
                         <tr>
                             <td id='cart_f'>
                                 <img src='img/course/1.jpg'/>
-                                <span><a href='#'>Social Networking Website Development In PHP With PDO Social Networking Website Development In PHP With PDO</a></span>
+                                <span><a href='#'>KURS REKLAMY NA FACEbooku</a></span>
                                 <b><a href='#'><i class='fas fa-trash-alt'></i>Remove</a></b>
                             </td>
                             <td>Marcin</td>
@@ -78,7 +78,7 @@
                         <tr>
                             <td id='cart_f'>
                                 <img src='img/course/1.jpg'/>
-                                <span><a href='#'>Social Networking Website Development In PHP With PDO</a></span>
+                                <span><a href='#'>KURS REKLAMY NA FACEbooku</a></span>
                                 <b><a href='#'><i class='fas fa-trash-alt'></i>Remove</a></b>
                             </td>
                             <td>Marcin</td>
@@ -111,10 +111,10 @@
                 <img src='img/course/1.jpg'/>
                 <div id='course_share'>
                 <center>
-                    <button id='fb'><a href='#'><i class='fab fa-facebook-f'></i>Share</a></button>
-                    <button id='gp'><a href='#'><i class='fab fa-google-plus'></i>Share</a></button>
-                    <button id='tw'><a href='#'><i class='fab fa-twitter'></i>Share</a></button>
-                    <button id='w'><a href='#'><i class='fab fa-whatsapp'></i>Share</a></button>
+                    <div id='fb'><a href='#'><i class='fab fa-facebook-f'></i>Share</a></div>
+                    <div id='gp'><a href='#'><i class='fab fa-google-plus'></i>Share</a></div>
+                    <div id='tw'><a href='#'><i class='fab fa-twitter'></i>Share</a></div>
+                    <div id='w'><a href='#'><i class='fab fa-whatsapp'></i>Share</a></div>
                 </center>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                 <form>
                 <center>
                     <button><i class='fas fa-shopping-cart'></i>Add To Cart</button>
-                    <button><a href='#'><i class='fas fa-bolt'></i>Enroll Now</a></button>
+                    <div><a href='#'><i class='fas fa-bolt'></i>Enroll Now</a></div>
                 </center>
                 </form>
             </div><br clear='all'/>

@@ -122,8 +122,11 @@ body{background:#e6e6e6;}
 #course_left{height:420px;float: left;margin:1.5% 0% 2% 2%;width: 48%;padding: 2%;box-sizing: border-box;background: #fff;}
 #course_left img{width: 100%;height: 320px;border-radius: 5px;}
 #course_share{width: 100%;margin: 2% 0% 0% 0%;padding: 0% 2% 0% 2%;box-sizing: border-box;}
-#course_share button{transition: all 0.3s ease-in-out;border-radius: 15px;cursor: pointer;margin:0% 0.5% 0% 0.5%;width: 120px;height: 35px;outline: none;border-width:0px;}
-#course_share button a{display: block;text-decoration: none;color: #fff;}
+#course_share div{float:left;transition: all 0.3s ease-in-out;border-radius: 15px;cursor: pointer;margin:0% 1% 0% 1%;width: 130px;height: 35px;outline: none;border-width:0px;}
+#course_share div a{font-size: 12px;line-height: 35px;display: block;text-decoration: none;color: #fff;}
+#course_share div:hover{border-radius: 0px;}
+#course_share button{float:left;transition: all 0.3s ease-in-out;border-radius: 15px;cursor: pointer;margin:0% 1% 0% 1%;width: 130px;height: 35px;outline: none;border-width:0px;}
+#course_share button a{line-height: 35px;display: block;text-decoration: none;color: #fff;}
 #course_share button:hover{border-radius: 0px;}
 
 #course_right{height:420px;float: left;margin:1.5% 2% 2% 0%;width: 48%;padding: 2% 2% 2% 0%;box-sizing: border-box;background: #fff;}
@@ -136,9 +139,12 @@ body{background:#e6e6e6;}
 #price h3{width: 100%;color: #3f5267;font-size: 22px;font-weight: normal;}
 #price h3 span{font-size: 14px;margin:0% 2% 0% 2%;text-decoration: line-through;}
 #price h3 b{margin-right: 2%;border-radius: 100%;font-weight: normal;padding: 2% 1.5% 2% 1.5% ;box-sizing: border-box;font-size: 14px;background: #3f5267;color: #fff;text-align: center;}
-#course_right form button{font-weight: bold;font-size: 12px;transition: all 0.3s ease-in-out;cursor: pointer;text-transform: uppercase;width: 48%;height: 35px;outline: none;border-width: 0px;background: #3f5267;color: #fff;border-radius: 15px;}
+#course_right form button{float: left;font-weight: bold;font-size: 12px;transition: all 0.3s ease-in-out;cursor: pointer;text-transform: uppercase;width: 48%;height: 35px;outline: none;border-width: 0px;background: #3f5267;color: #fff;border-radius: 15px;}
 #course_right form button a{text-decoration:none;color: #fff;}
 #course_right form button:hover{border-radius: 0px;}
+#course_right form div{margin-left: 1%;float: left;font-weight: bold;font-size: 12px;transition: all 0.3s ease-in-out;cursor: pointer;text-transform: uppercase;width: 48%;height: 35px;outline: none;border-width: 0px;background: #3f5267;color: #fff;border-radius: 15px;}
+#course_right form div a{text-decoration:none;color: #fff;line-height: 35px;display: block;}
+#course_right form div:hover{border-radius: 0px;}
 
 #c_desc{float: left;margin:0% 2% 2% 2%;width: 66%;padding: 2%;box-sizing: border-box;background: #fff;}
 #c_desc h2{color: #3f5267;font-weight: normal;}
@@ -188,4 +194,25 @@ body{background:#e6e6e6;}
 #f_share div a{display: block;text-decoration: none;color: #fff;}
 #f_share div:hover{border-radius: 0%;background: #2e2e2e;}
 
+#cat_bodyleft{width: 20%;background: #74889e;padding: 1%;box-sizing: border-box;height: 500px;float: left;}
+#cat_bodyleft h2{background: #fff;border-radius: 15px;width: 100%;text-align: center;color: #3f5267;height: 35px;font-size: 14px;line-height: 35px;}
+#cat_bodyleft ul{list-style-type: none;margin-top: 5%;margin-bottom: 5%;}
+#cat_bodyleft ul li{width: 100%;height: 35px;line-height: 35px;color: #fff;padding-left:5%;box-sizing: border-box;}
+#cat_bodyleft ul li:hover a{text-decoration: underline;}
+#cat_bodyleft ul li a{font-size: 14px;font-weight: normal;display: block;text-decoration: none;color: #fff;}
+#cat_bodyleft ul li a i{width: 20px;}
 
+#cat_bodyright{width: 80%;background: none;padding: 0% 2% 2% 2%;box-sizing: border-box;float: left;}
+#cat_bodyright h2{font-weight: normal;font-size: 20px;padding-left: 2%;margin-top: 2%;box-sizing: border-box;color: #3f5267;}
+#cat_bodyright h2 a{display: block;text-decoration: none;color: #3f5267;font-size: 14px;}
+#cat_bodyright h2 span{transition: all 0.3s ease-in-out;float: right;margin-right: 2%;padding: 1% 1.2% 1% 1.2%;border: 1px solid #3f5267;border-radius: 100%;}
+#cat_bodyright h2 span:hover{border-radius: 0px;background: #3f5267;}
+#cat_bodyright h2 span:hover a{color: #fff;}
+#cat_bodyright ul{list-style: none;margin-top: 3%;}
+#cat_bodyright ul li{height: 270px;margin-bottom: 2%;transition: all 0.3s ease-in-out;margin-left: 2%;width: 23%;padding: 1%;box-sizing: border-box;background: #fff;float: left;}
+#cat_bodyright ul li a{text-decoration: none;}
+#cat_bodyright ul li a img{width: 100%;height: 150px;}
+#cat_bodyright ul li a h3{color: #74889e;font-size: 14px;margin-top: 3%; font-weight: 400;}
+#cat_bodyright ul li a h4{margin-top: 4%;margin-bottom: 4%;color: #3f5267;font-size: 18px;}
+#cat_bodyright ul li a h5{color: #74889e;font-weight: normal;}
+#cat_bodyright ul li:hover{transform: scale(1.1);}
